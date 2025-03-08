@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs --no-git",
+    "docs:build": "vitepress build docs --no-git",
+    "docs:preview": "vitepress preview docs",
+    "start": "vitepress dev docs --no-git",
+    "build": "vitepress build docs --no-git",
+    "generate:sitemap": "node scripts/generate-sitemap.js",
+    "optimize:images": "node scripts/optimize-images.js",
+    "setup": "node scripts/setup.js"
+  },
+  "devDependencies": {
+    "vitepress": "latest",
+    "sharp": "^0.33.2",
+    "sitemap": "^7.1.1",
+    "glob": "^10.3.10"
+  }
+}
