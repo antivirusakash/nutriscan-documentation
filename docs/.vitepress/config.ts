@@ -9,6 +9,8 @@ export default defineConfig({
   ignoreDeadLinks: true,
   cacheDir: '.vitepress/cache',
   outDir: '.vitepress/dist',
+  
+  appearance: 'dark',
 
   head: [
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
@@ -66,16 +68,15 @@ export default defineConfig({
     ],
 
     footer: {
-      copyright: 'Copyright © 2024 NutriScan App'
+      copyright: 'Copyright © 2025 NutriScan App'
     },
 
     search: {
       provider: 'local'
     },
 
-    titleTemplate: '%s | NutriScan App',
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/nutriscan' },
+      { icon: 'instagram', link: 'https://www.instagram.com/nutriscan.app' },
       { icon: 'twitter', link: 'https://twitter.com/nutriscanapp' }
     ]
   },
