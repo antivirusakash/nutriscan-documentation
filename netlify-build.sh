@@ -16,13 +16,17 @@ echo "🌐 Setting production environment..."
 export NODE_ENV=production
 export NETLIFY_ENV=production
 
+# Clean install approach
+echo "🧹 Cleaning node_modules to ensure a fresh install..."
+rm -rf node_modules package-lock.json
+
 # Install dependencies with legacy peer deps flag
 echo "📥 Installing dependencies..."
-npm ci --legacy-peer-deps || npm install --legacy-peer-deps
+npm install --legacy-peer-deps
 
-# Make sure VitePress is installed
-echo "📥 Ensuring VitePress is installed..."
-npm install --save-dev vitepress@^1.6.3 --legacy-peer-deps
+# Make sure VitePress and its dependencies are installed
+echo "📥 Ensuring VitePress and its dependencies are installed..."
+npm install --save-dev vitepress@^1.6.3 @vue/devtools-api@^6.5.1 @vueuse/core@^10.7.1 --legacy-peer-deps
 
 # Verify VitePress installation
 echo "🔍 Verifying VitePress installation..."
