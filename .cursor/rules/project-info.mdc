@@ -1,0 +1,54 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: NutriScan App Documentation Project Information
+globs: ["**/*.md", "**/*.ts", "**/*.js"]
+---
+
+# NutriScan Documentation Project
+
+This is a documentation site for the NutriScan App built with VitePress. The documentation covers user guides, feature explanations, and support information for the NutriScan mobile application.
+
+## Project Structure
+
+- `docs/` - Main documentation content
+  - `.vitepress/` - VitePress configuration and theme customization
+    - `config.ts` - Site configuration including navigation, sidebar, and metadata
+    - `theme/` - Custom theme components
+  - `public/` - Static assets like images and icons
+  - `guide/` - Feature-specific documentation
+  - Various markdown files for main sections (overview, getting-started, etc.)
+- `scripts/` - Build and deployment scripts
+- `netlify.toml` & `netlify-build.sh` - Netlify deployment configuration
+
+## Key Files
+
+- @docs/.vitepress/config.ts - Main configuration file for the documentation site
+- @docs/index.md - Homepage that redirects to the overview
+- @docs/overview.md - Main landing page with product overview
+- @docs/getting-started.md - Guide for new users
+- @docs/guide/ - Directory containing detailed documentation for each feature
+
+## Documentation Sections
+
+1. **Getting Started** - Introduction and setup guides
+2. **Core Features**
+   - Meal Scan - How to scan and analyze meals
+   - Meal Timeline - Tracking meal history
+   - Diet Plan - Setting up personalized diet plans
+   - Subscription - Subscription options and management
+   - Monika - AI assistant features
+   - NutriBites - Nutritional content feature
+   - NutriScore - Scoring system explanation
+3. **Help & Support** - Troubleshooting, FAQ, and support information
+
+## Development Workflow
+
+The site is built with VitePress and deployed on Netlify. Content is written in Markdown with frontmatter for metadata. The site uses a customized dark theme and includes SEO optimization.
+
+## Deployment
+
+The site is deployed to https://guide.nutriscan.app in production.
