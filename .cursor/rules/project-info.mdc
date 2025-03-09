@@ -1,5 +1,5 @@
 ---
-description: 
+description: This repository contains the documentation website for the NutriScan mobile application, a nutrition tracking and diet planning app available on iOS and Android. The documentation is built using @VitePress, a static site generator powered by Vue.
 globs: 
 alwaysApply: false
 ---
