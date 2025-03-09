@@ -2,7 +2,7 @@
 
 ## Introduction
 
-NutriScan is a comprehensive nutrition tracking and diet planning application powered by AI technology. Available on both [Android](https://play.google.com/store) and [iOS](https://apps.apple.com) platforms, the app helps users monitor their nutritional intake, create personalized diet plans for various health goals, and gain valuable insights into their eating habits.
+NutriScan is a comprehensive nutrition tracking and diet planning application powered by AI technology. Available on both [Android](https://play.google.com/store/apps/details?id=app.nutriscan) and [iOS](https://apps.apple.com/in/app/nutriscan-track-diet-plan/id6479204257) platforms, the app helps users monitor their nutritional intake, create personalized diet plans for various health goals, and gain valuable insights into their eating habits.
 
 ::: info What is NutriScan?
 NutriScan uses advanced image recognition and AI to analyze the nutritional content of meals through simple photos. It combines this technology with personalized diet planning to help users achieve their health goals.
