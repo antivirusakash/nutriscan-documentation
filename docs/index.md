@@ -15,10 +15,10 @@ head:
       content: 0;url=/overview
 ---
 
-<script>
-  window.location.href = '/overview';
-</script>
+<ClientOnly>
+  <Redirect to="/overview" />
+</ClientOnly>
 
-# Redirecting...
+# Redirecting to Overview
 
 If you are not redirected automatically, please [click here](/overview) to go to the Overview page.
