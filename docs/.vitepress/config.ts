@@ -150,6 +150,12 @@ export default defineConfig({
       watch: {
         usePolling: false
       }
+    },
+    optimizeDeps: {
+      include: [
+        '@vue/devtools-api',
+        '@vueuse/core'
+      ]
     }
   }
 });
