@@ -2,12 +2,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "docs:dev": "vitepress dev docs --no-git",
-    "docs:build": "vitepress build docs --no-git",
-    "docs:preview": "vitepress preview docs",
-    "start": "vitepress dev docs --no-git",
-    "build": "vitepress build docs --no-git",
+    "docs:dev": "npx vitepress dev docs --no-git",
+    "docs:build": "npx vitepress build docs --no-git && npm run generate:sitemap && npm run verify:seo",
+    "docs:preview": "npx vitepress preview docs",
+    "start": "npx vitepress dev docs --no-git",
+    "build": "npx vitepress build docs --no-git && npm run generate:sitemap && npm run verify:seo",
     "generate:sitemap": "node scripts/generate-sitemap.js",
+    "verify:seo": "node scripts/verify-seo.js",
     "optimize:images": "node scripts/optimize-images.js",
     "setup": "node scripts/setup.js"
   },

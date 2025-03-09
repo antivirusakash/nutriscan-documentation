@@ -5,6 +5,61 @@ const baseUrl = process.env.NODE_ENV === 'production'
   ? 'https://guide.nutriscan.app' 
   : '';
 
+// Google Search Console verification ID (replace with your actual verification ID when you have one)
+const gscVerification = ''; // Add your Google Search Console verification code here
+
+// Prepare head tags
+const headTags: any[] = [
+  ['link', { rel: 'icon', href: '/images/nutriscan-logo.webp' }],
+  ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
+  ['meta', { name: 'robots', content: 'index, follow' }],
+  ['meta', { name: 'author', content: 'NutriScan App' }],
+  ['meta', { name: 'keywords', content: 'nutrition app, meal tracking, diet planner, AI nutritionist, food scanner, healthy lifestyle, personalized diet, calorie tracking' }],
+];
+
+// Add Google Search Console verification if available
+if (gscVerification) {
+  headTags.push(['meta', { name: 'google-site-verification', content: gscVerification }]);
+}
+
+// Add structured data
+headTags.push(
+  ['script', { type: 'application/ld+json' }, 
+  `{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "NutriScan App User Guide",
+    "url": "${baseUrl}/",
+    "description": "Follow our NutriScan App User Guide to learn how to scan meals, view your meal timeline, set up a diet plan, subscribe, and chat with Monika.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "${baseUrl}/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }`]
+);
+
+// Add Open Graph / Facebook tags
+headTags.push(
+  ['meta', { property: 'og:title', content: 'User Guide - NutriScan App' }],
+  ['meta', { property: 'og:description', content: 'Follow our NutriScan App User Guide to learn how to scan meals, view your meal timeline, set up a diet plan, subscribe, and chat with Monika. Get easy steps for a healthier life with NutriScan.' }],
+  ['meta', { property: 'og:type', content: 'website' }],
+  ['meta', { property: 'og:url', content: `${baseUrl}/` }],
+  ['meta', { property: 'og:image', content: `${baseUrl}/images/social/og-image.jpg` }],
+  ['meta', { property: 'og:image:alt', content: 'NutriScan App Documentation' }],
+  ['meta', { property: 'og:image:width', content: '1200' }],
+  ['meta', { property: 'og:image:height', content: '630' }]
+);
+
+// Add Twitter tags
+headTags.push(
+  ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+  ['meta', { name: 'twitter:title', content: 'User Guide - NutriScan App' }],
+  ['meta', { name: 'twitter:description', content: 'Follow our NutriScan App User Guide to learn how to scan meals, view your meal timeline, set up a diet plan, subscribe, and chat with Monika. Get easy steps for a healthier life with NutriScan.' }],
+  ['meta', { name: 'twitter:image', content: `${baseUrl}/images/social/og-image.jpg` }],
+  ['meta', { name: 'twitter:image:alt', content: 'NutriScan App Documentation' }]
+);
+
 export default defineConfig({
   lang: 'en-US',
   title: 'User Guide - NutriScan App',
@@ -17,29 +72,22 @@ export default defineConfig({
   
   appearance: 'dark',
 
-  head: [
-    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
-    ['meta', { name: 'robots', content: 'index, follow' }],
-    ['meta', { name: 'author', content: 'NutriScan App' }],
-    ['meta', { name: 'keywords', content: 'nutrition app, meal tracking, diet planner, AI nutritionist, food scanner, healthy lifestyle, personalized diet, calorie tracking' }],
+  // Add canonical URLs and other SEO enhancements
+  transformPageData(pageData) {
+    // Skip 404 page
+    if (pageData.relativePath === '404.md') return;
     
-    // Open Graph / Facebook
-    ['meta', { property: 'og:title', content: 'NutriScan App User Guide - Scan, Track & Plan Your Diet' }],
-    ['meta', { property: 'og:description', content: 'Discover how to scan meals, track nutrition, and set up a personalized diet plan with NutriScan. AI-powered food tracking for a healthier life.' }],
-    ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:url', content: `${baseUrl}/` }],
-    ['meta', { property: 'og:image', content: `${baseUrl}/images/social/og-image.jpg` }],
-    ['meta', { property: 'og:image:alt', content: 'NutriScan App Documentation' }],
-    ['meta', { property: 'og:image:width', content: '1200' }],
-    ['meta', { property: 'og:image:height', content: '630' }],
+    // Generate canonical URL
+    const canonicalUrl = `${baseUrl}/${pageData.relativePath.replace(/\.md$/, '.html')}`;
     
-    // Twitter
-    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:title', content: 'NutriScan App User Guide - Scan, Track & Plan Your Diet' }],
-    ['meta', { name: 'twitter:description', content: 'Learn how to track meals, analyze nutrition, and create a personalized diet plan with the NutriScan App.' }],
-    ['meta', { name: 'twitter:image', content: `${baseUrl}/images/social/og-image.jpg` }],
-    ['meta', { name: 'twitter:image:alt', content: 'NutriScan App Documentation' }]
-  ],
+    // Initialize frontmatter head if not already present
+    pageData.frontmatter.head ??= [];
+    
+    // Add canonical URL link tag
+    pageData.frontmatter.head.push(['link', { rel: 'canonical', href: canonicalUrl }]);
+  },
+
+  head: headTags,
 
   themeConfig: {
     logo: '/images/nutriscan-logo.webp',
