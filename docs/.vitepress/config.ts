@@ -1,5 +1,10 @@
 import { defineConfig } from 'vitepress';
 
+// Base URL for the site (empty for local development, your domain for production)
+const baseUrl = process.env.NODE_ENV === 'production' 
+  ? 'https://guide.nutriscan.app' 
+  : '';
+
 export default defineConfig({
   lang: 'en-US',
   title: 'User Guide - NutriScan App',
@@ -17,12 +22,23 @@ export default defineConfig({
     ['meta', { name: 'robots', content: 'index, follow' }],
     ['meta', { name: 'author', content: 'NutriScan App' }],
     ['meta', { name: 'keywords', content: 'nutrition app, meal tracking, diet planner, AI nutritionist, food scanner, healthy lifestyle, personalized diet, calorie tracking' }],
+    
+    // Open Graph / Facebook
     ['meta', { property: 'og:title', content: 'NutriScan App User Guide - Scan, Track & Plan Your Diet' }],
     ['meta', { property: 'og:description', content: 'Discover how to scan meals, track nutrition, and set up a personalized diet plan with NutriScan. AI-powered food tracking for a healthier life.' }],
     ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:url', content: `${baseUrl}/` }],
+    ['meta', { property: 'og:image', content: `${baseUrl}/images/social/og-image.jpg` }],
+    ['meta', { property: 'og:image:alt', content: 'NutriScan App Documentation' }],
+    ['meta', { property: 'og:image:width', content: '1200' }],
+    ['meta', { property: 'og:image:height', content: '630' }],
+    
+    // Twitter
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:title', content: 'NutriScan App User Guide - Scan, Track & Plan Your Diet' }],
-    ['meta', { name: 'twitter:description', content: 'Learn how to track meals, analyze nutrition, and create a personalized diet plan with the NutriScan App.' }]
+    ['meta', { name: 'twitter:description', content: 'Learn how to track meals, analyze nutrition, and create a personalized diet plan with the NutriScan App.' }],
+    ['meta', { name: 'twitter:image', content: `${baseUrl}/images/social/og-image.jpg` }],
+    ['meta', { name: 'twitter:image:alt', content: 'NutriScan App Documentation' }]
   ],
 
   themeConfig: {
