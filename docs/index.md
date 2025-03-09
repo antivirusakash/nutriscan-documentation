@@ -1,7 +1,7 @@
 ---
 layout: doc
-title: NutriScan App - AI-Powered Nutrition Assistant & Diet Planning
-description: Transform your nutrition journey with NutriScan App. Get instant meal analysis, personalized diet plans, and AI-powered nutrition guidance.
+title: User Guide - NutriScan App
+description: Follow our NutriScan App User Guide to learn how to scan meals, view your meal timeline, set up a diet plan, subscribe, and chat with Monika. Get easy steps for a healthier life with NutriScan. 
 
 head:
   - - meta

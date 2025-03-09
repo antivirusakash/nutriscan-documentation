@@ -2,9 +2,9 @@ import { defineConfig } from 'vitepress';
 
 export default defineConfig({
   lang: 'en-US',
-  title: 'NutriScan App - AI-Powered Nutrition Assistant & Diet Planning',
-  description: 'Track meals, get instant nutritional insights, and receive personalized diet plans with NutriScan App. AI-powered nutrition tracking made simple.',
-  lastUpdated: false,
+  title: 'User Guide - NutriScan App',
+  description: 'Follow our NutriScan App User Guide to learn how to scan meals, view your meal timeline, set up a diet plan, subscribe, and chat with Monika. Get easy steps for a healthier life with NutriScan.',
+  lastUpdated: true,
   cleanUrls: true,
   ignoreDeadLinks: true,
   cacheDir: '.vitepress/cache',
@@ -16,18 +16,18 @@ export default defineConfig({
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
     ['meta', { name: 'robots', content: 'index, follow' }],
     ['meta', { name: 'author', content: 'NutriScan App' }],
-    ['meta', { name: 'keywords', content: 'nutrition app, diet planning, meal tracking, AI nutritionist, healthy eating, meal scanner, personalized diet, food tracking' }],
-    ['meta', { property: 'og:title', content: 'NutriScan App - AI-Powered Nutrition Assistant & Diet Planning' }],
-    ['meta', { property: 'og:description', content: 'Track meals, get instant nutritional insights, and receive personalized diet plans with NutriScan App. AI-powered nutrition tracking made simple.' }],
+    ['meta', { name: 'keywords', content: 'nutrition app, meal tracking, diet planner, AI nutritionist, food scanner, healthy lifestyle, personalized diet, calorie tracking' }],
+    ['meta', { property: 'og:title', content: 'NutriScan App User Guide - Scan, Track & Plan Your Diet' }],
+    ['meta', { property: 'og:description', content: 'Discover how to scan meals, track nutrition, and set up a personalized diet plan with NutriScan. AI-powered food tracking for a healthier life.' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { name: 'twitter:title', content: 'NutriScan App - AI-Powered Nutrition Assistant & Diet Planning' }],
-    ['meta', { name: 'twitter:description', content: 'Track meals, get instant nutritional insights, and receive personalized diet plans with NutriScan App.' }]
+    ['meta', { name: 'twitter:title', content: 'NutriScan App User Guide - Scan, Track & Plan Your Diet' }],
+    ['meta', { name: 'twitter:description', content: 'Learn how to track meals, analyze nutrition, and create a personalized diet plan with the NutriScan App.' }]
   ],
 
   themeConfig: {
-    logo: '/logo.svg',
-    siteTitle: 'NutriScan App Docs',
+    logo: '/images/nutriscan-logo.webp',
+    siteTitle: 'Guide - NutriScan App',
     
     nav: [
       { text: 'Overview', link: '/overview' },
