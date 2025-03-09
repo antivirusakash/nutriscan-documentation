@@ -22,7 +22,7 @@ npm ci --legacy-peer-deps || npm install --legacy-peer-deps
 
 # Make sure VitePress is installed
 echo "📥 Ensuring VitePress is installed..."
-npm install --save-dev vitepress@^1.3.4 --legacy-peer-deps
+npm install --save-dev vitepress@^1.6.3 --legacy-peer-deps
 
 # Verify VitePress installation
 echo "🔍 Verifying VitePress installation..."
