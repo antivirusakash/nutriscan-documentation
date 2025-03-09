@@ -3,52 +3,64 @@ description:
 globs: 
 alwaysApply: false
 ---
----
-description: NutriScan App Documentation Project Information
-globs: ["**/*.md", "**/*.ts", "**/*.js"]
----
-
 # NutriScan Documentation Project
 
-This is a documentation site for the NutriScan App built with VitePress. The documentation covers user guides, feature explanations, and support information for the NutriScan mobile application.
+## Project Overview
+This repository contains the documentation website for the NutriScan mobile application, a nutrition tracking and diet planning app available on iOS and Android. The documentation is built using [VitePress](mdc:https:/vitepress.dev), a static site generator powered by Vue.
 
-## Project Structure
+## Key Features of NutriScan App
+- **Meal Scanning:** Take photos of meals to get instant nutrition information
+- **Nutrition Analysis:** Detailed breakdown of calories, proteins, carbs, and fats
+- **Personalized Diet Plans:** Custom plans for weight loss, muscle building, diabetes management, PCOS, pregnancy, and viral/flu
+- **AI Assistant:** Voice-powered assistant named Monika for nutrition questions
+- **Meal Timeline:** History of scanned meals and nutrition tracking
+- **Community Features:** Sharing capabilities with friends and community
 
-- `docs/` - Main documentation content
-  - `.vitepress/` - VitePress configuration and theme customization
-    - `config.ts` - Site configuration including navigation, sidebar, and metadata
-    - `theme/` - Custom theme components
-  - `public/` - Static assets like images and icons
-  - `guide/` - Feature-specific documentation
-  - Various markdown files for main sections (overview, getting-started, etc.)
-- `scripts/` - Build and deployment scripts
-- `netlify.toml` & `netlify-build.sh` - Netlify deployment configuration
+## Documentation Structure
+- @docs/index.md - Main entry point that redirects to overview
+- @docs/overview.md - General overview of the NutriScan app
+- @docs/getting-started.md - Instructions for new users
+- @docs/guide/ - Detailed guides for specific features
+- @docs/faq.md - Frequently asked questions
+- @docs/troubleshooting.md - Common issues and solutions
+- @docs/privacy.md - Privacy policy information
+- @docs/support.md - How to get support
 
-## Key Files
-
-- @docs/.vitepress/config.ts - Main configuration file for the documentation site
-- @docs/index.md - Homepage that redirects to the overview
-- @docs/overview.md - Main landing page with product overview
-- @docs/getting-started.md - Guide for new users
-- @docs/guide/ - Directory containing detailed documentation for each feature
-
-## Documentation Sections
-
-1. **Getting Started** - Introduction and setup guides
-2. **Core Features**
-   - Meal Scan - How to scan and analyze meals
-   - Meal Timeline - Tracking meal history
-   - Diet Plan - Setting up personalized diet plans
-   - Subscription - Subscription options and management
-   - Monika - AI assistant features
-   - NutriBites - Nutritional content feature
-   - NutriScore - Scoring system explanation
-3. **Help & Support** - Troubleshooting, FAQ, and support information
+## Technical Details
+- Built with VitePress v1.3.4
+- Uses Node.js (v18+)
+- Deployment via Netlify
+- Image optimization using Sharp
+- Sitemap generation for SEO
 
 ## Development Workflow
+1. Install dependencies: `npm install`
+2. Start dev server: `npm run docs:dev` or `npm start`
+3. Build for production: `npm run docs:build` or `npm run build`
+4. Preview production build: `npm run docs:preview`
+5. Generate sitemap: `npm run generate:sitemap`
+6. Optimize images: `npm run optimize:images`
 
-The site is built with VitePress and deployed on Netlify. Content is written in Markdown with frontmatter for metadata. The site uses a customized dark theme and includes SEO optimization.
+## Project Structure
+```
+nutriscan-documentation/
+├── .vitepress/        # VitePress configuration
+├── docs/              # Documentation content
+│   ├── guide/         # Feature-specific guides
+│   ├── public/        # Static assets
+│   ├── index.md       # Entry point
+│   ├── overview.md    # App overview
+│   └── ...            # Other documentation pages
+├── scripts/           # Utility scripts
+├── netlify.toml       # Netlify configuration
+└── package.json       # Project dependencies
+```
 
-## Deployment
-
-The site is deployed to https://guide.nutriscan.app in production.
+## Contribution Guidelines
+When updating documentation:
+- Follow the existing markdown format
+- Use descriptive titles and clear instructions
+- Include screenshots when applicable
+- Test links and references
+- Ensure mobile responsiveness
+- Update the FAQ for common questions
