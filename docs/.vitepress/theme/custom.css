@@ -89,7 +89,17 @@
   color: var(--vp-c-brand-dark);
 }
 
-/* Hide appearance toggle button */
+/* Hide appearance toggle button in desktop view */
 .VPNavBarAppearance {
+  display: none !important;
+}
+
+/* Hide appearance toggle in mobile view */
+.VPNavScreenAppearance {
+  display: none !important;
+}
+
+/* Hide appearance menu item in mobile menu */
+.VPNavScreenMenuGroup .VPNavScreenAppearance {
   display: none !important;
 } 

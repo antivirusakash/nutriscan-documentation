@@ -18,7 +18,3 @@ head:
 <ClientOnly>
   <Redirect to="/overview" />
 </ClientOnly>
-
-# Redirecting to Overview
-
-If you are not redirected automatically, please [click here](/overview) to go to the Overview page.
