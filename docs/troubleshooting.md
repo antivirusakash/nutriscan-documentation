@@ -224,6 +224,14 @@ If you denied a permission and the app no longer asks for it:
   - Verify you've granted the app permission to share content
   - Try saving the image first, then sharing from your gallery
 
+- **Missing micro nutrients**:
+  - The app shows only the top 4 micro nutrients by default
+  - Tap on "Nutrition Breakdown & Ask More" to see all values
+
+- **NutriScore questions not working**:
+  - Ensure you have an active internet connection
+  - Try refreshing the page or restarting the app
+
 ## NutriBites & AI Assistant Issues 🤖
 
 ### NutriBites Problems
@@ -247,6 +255,11 @@ If you denied a permission and the app no longer asks for it:
   - Check your internet connection
   - Speak clearly and wait for processing
   - If still not working, restart the app and try again
+
+- **Questions about specific meals not working**:
+  - Try to be more specific about which meal you're referring to
+  - Mention the date or time of the meal in your question
+  - Ensure you've logged meals that the AI can reference
 
 ## Diet Plan Issues 🍽️
 
@@ -284,6 +297,10 @@ Diet Plan is only available with a Premium subscription. Ensure your subscriptio
   - Contact support if plan creation fails repeatedly
 - **Meal details not loading**: Check your internet connection
 - **Cannot renew plan after 28 days**: Go to Edit Diet Plan and complete the form again
+- **Diet plan tabs not switching**:
+  - Ensure you're tapping directly on the tab names (Diet Plan, Supplements, Lifestyle)
+  - Try restarting the app if the UI becomes unresponsive
+  - Check for app updates that might fix UI issues
 
 ## Advanced Features Issues 🌟
 
@@ -297,6 +314,10 @@ Diet Plan is only available with a Premium subscription. Ensure your subscriptio
   - Rewards apply after friend completes sign-up
   - Allow up to 24 hours for rewards to be applied
   - Check notification center for confirmation
+- **Referral count discrepancy**:
+  - The referral counter may take time to update
+  - Verify that referred friends have completed the full registration process
+  - Contact support if discrepancies persist after 48 hours
 
 ### Meal Management
 
@@ -309,6 +330,7 @@ Diet Plan is only available with a Premium subscription. Ensure your subscriptio
   - Make sure you're long-pressing the meal item
   - This works only for previously logged meals
   - Verify you have a stable internet connection
+  - Wait for the success message to confirm the action completed
 
 ### Insights Dashboard
 
@@ -321,6 +343,74 @@ Diet Plan is only available with a Premium subscription. Ensure your subscriptio
   - Location permission must be granted
   - Feature requires at least one meal scan
   - Some regions may have limited map data
+  - Try zooming in/out on the map if it appears but shows no data
+
+- **NutriScore colors not matching expectations**:
+  - The color coding is based on a complex nutritional algorithm
+  - Review the "Learn NutriScore" section for explanation of scoring
+  - Ensure you've entered all food items for accurate scoring
+
+## Rating & Feedback Issues ⭐
+
+- **Rating prompt not appearing**:
+  - The prompt appears after scanning 2 meals
+  - If you've already responded to it, it won't appear again
+  - You can still rate the app directly in the App/Play Store
+
+- **Cannot submit feedback**:
+  - Ensure all required fields in the Contact Us form are completed
+  - Check your internet connection
+  - Try submitting shorter feedback if the form won't accept long text
+
+## Notification Issues 🔔
+
+- **Missing notifications**:
+  - Check that notification permission is granted
+  - Verify that notifications are enabled in app settings
+  - For Android: Check that battery optimization isn't restricting the app
+  - For iOS: Ensure notifications aren't silenced or grouped
+
+- **Notification taps not navigating correctly**:
+  - Update to the latest version of the app
+  - If persistent, try clearing app cache or reinstalling
+
+## Frequently Asked Questions ❓
+
+<details>
+<summary><b>How do I access my previous meals?</b></summary>
+
+All your previously logged meals appear on the Home screen. Scroll down to view your meal history by date. You can tap on any meal to view its detailed nutritional information.
+</details>
+
+<details>
+<summary><b>Why can't I sign in with my phone number?</b></summary>
+
+Mobile number sign-in is only available in India and requires location permission to be granted. If you're outside India or have denied location permission, this option won't be visible. Use Google or Apple ID sign-in instead.
+</details>
+
+<details>
+<summary><b>How do I cancel my subscription?</b></summary>
+
+Go to Profile > Upgrade > Cancel Subscription. You'll be asked to complete a brief survey about why you're cancelling, then directed to your device's subscription management screen (App Store or Play Store) to complete the cancellation.
+</details>
+
+<details>
+<summary><b>What's the difference between Track and Premium plans?</b></summary>
+
+Both plans include NutriBites Q&A and the AI nutritionist (Monika). The Premium plan additionally includes custom diet plans and advanced insights. Check the pricing page for the most current feature comparison.
+</details>
+
+<details>
+<summary><b>Why does the app need so many permissions?</b></summary>
+
+Each permission serves a specific purpose:
+- Camera: For scanning meals
+- Photos: To access saved food images
+- Location: For map insights and mobile authentication (India)
+- Microphone: For voice input and AI assistant
+- Notifications: For reminders and updates
+All permissions except Camera and Photos are optional but enable better functionality.
+</details>
 
 ## Contact Support 📞
 
@@ -338,5 +428,6 @@ If your issue persists after trying the solutions above:
 
 3. **Community forum**: [WhatsApp Community](https://chat.whatsapp.com/D59cAogthGxFZo67dShNzv)
 
-
----
+4. **Social media**:
+   - [Instagram](https://instagram.com/nutriscan.app)
+   - [Twitter](https://twitter.com/nutriscanapp)
