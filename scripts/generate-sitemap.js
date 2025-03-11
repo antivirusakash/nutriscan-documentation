@@ -8,10 +8,8 @@ async function generateSitemap() {
   try {
     console.log('Starting sitemap generation...');
     
-    // Get base URL from environment or use default
-    const baseUrl = process.env.NODE_ENV === 'production' 
-      ? 'https://guide.nutriscan.app'
-      : 'http://localhost:5173';
+    // Always use the production URL for sitemap generation
+    const baseUrl = 'https://guide.nutriscan.app';
     
     console.log(`Using base URL: ${baseUrl}`);
     
