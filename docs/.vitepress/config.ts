@@ -113,6 +113,7 @@ export default defineConfig({
         items: [
           { text: 'Meal Scan', link: '/guide/meal-scan' },
           { text: 'Meal Timeline', link: '/guide/meal-timeline' },
+          { text: 'Insights', link: '/guide/insights' },
           { text: 'Diet Plan', link: '/guide/diet-plan' },
           { text: 'Subscription', link: '/guide/subscription' },
           { text: 'Monika', link: '/guide/monika' },
