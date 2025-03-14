@@ -170,10 +170,3 @@ Always review the permissions requested by the app and understand how your data 
 Get help and connect with other users:
 
 * 📧 **Email Support**: support@nutriscan.app
-* 💬 **In-App Chat**: Available 24/7
-* 👥 **User Community**: Share recipes and tips
-* 📚 **Knowledge Base**: [help.nutriscan.app](https://help.nutriscan.app)
-
-::: tip Join Our Community
-Connect with other health-conscious individuals in our community forum to share recipes, tips, and success stories!
-:::

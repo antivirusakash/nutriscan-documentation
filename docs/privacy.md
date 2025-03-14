@@ -153,9 +153,3 @@ Got questions? Suggestions? Just want to say hi? We'd love to hear from you!
 ::: tip We're Here to Help
 Our support team typically responds within 24 hours. For urgent privacy concerns, please mark your message as "Privacy Request" for expedited handling.
 :::
-
----
-
-*Last Updated: June 2024*
-
-By using NutriScan, you agree to the terms outlined in this privacy policy. Thank you for trusting us with your nutritional journey!
