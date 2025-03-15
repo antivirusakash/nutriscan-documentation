@@ -136,17 +136,6 @@ head:
   margin-right: 1rem;
 }
 
-.app-title {
-  font-size: 3.5rem;
-  font-weight: 700;
-  margin: 0;
-}
-
-.app-title span {
-  font-weight: 400;
-  font-size: 3rem;
-}
-
 .tagline {
   margin-bottom:2rem
 }
@@ -170,36 +159,6 @@ head:
 
 .store-link:hover .store-badge {
   transform: scale(1.05);
-}
-
-/* Section Heading */
-.section-heading {
-  text-align: center;
-  margin: 4rem auto 2rem;
-}
-
-.section-heading h2 {
-  font-size: 2.2rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-  border-top: none !important;
-}
-
-.video-link {
-  color: #4a90e2;
-  font-size: 1.1rem;
-  text-decoration: none;
-  position: relative;
-}
-
-.video-link:after {
-  content: "→";
-  margin-left: 5px;
-  transition: margin-left 0.2s ease;
-}
-
-.video-link:hover:after {
-  margin-left: 10px;
 }
 
 /* Feature Highlights */
@@ -275,12 +234,6 @@ head:
   justify-content: center;
 }
 
-.image-placeholder {
-  width: 100%;
-  height: 100%;
-  background-color: #2a2a2a;
-}
-
 .feature-content {
   flex: 1;
   padding: 2rem;
@@ -306,162 +259,6 @@ head:
   margin: 0;
 }
 
-/* Comparison Section */
-.comparison-section {
-  margin: 5rem auto;
-  max-width: 1000px;
-  padding: 0 1rem;
-}
-
-.comparison-section h2 {
-  text-align: center;
-  font-size: 2.2rem;
-  margin-bottom: 2rem;
-  border-top: none !important;
-}
-
-.comparison-container {
-  background-color: #1a1a1a;
-  border-radius: 16px;
-  overflow: hidden;
-}
-
-.comparison-header {
-  display: flex;
-  background-color: #111;
-  padding: 1.5rem;
-}
-
-.comparison-header h3 {
-  margin: 0;
-  font-size: 1.2rem;
-  border-top: none !important;
-}
-
-.comparison-row {
-  display: flex;
-  border-bottom: 1px solid #333;
-}
-
-.comparison-row:last-child {
-  border-bottom: none;
-}
-
-.comparison-feature {
-  flex: 1;
-  padding: 1.2rem;
-  background-color: #222;
-  font-weight: 600;
-}
-
-.app-column, .nutriscan-column {
-  flex: 1;
-  padding: 1.2rem;
-  display: flex;
-  align-items: center;
-}
-
-.nutriscan-column.highlighted {
-  background-color: rgba(74, 144, 226, 0.1);
-  position: relative;
-}
-
-.nutriscan-column.highlighted:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 3px;
-  background-color: #4a90e2;
-}
-
-.app-column p, .nutriscan-column p {
-  margin: 0;
-  font-size: 0.95rem;
-}
-
-.nutriscan-column p {
-  color: #4a90e2;
-  font-weight: 500;
-}
-
-/* Testimonial Section */
-.testimonial-section {
-  margin: 5rem auto;
-  max-width: 1200px;
-  padding: 0 1rem;
-}
-
-.testimonial-section h2 {
-  text-align: center;
-  font-size: 2.2rem;
-  margin-bottom: 2rem;
-  border-top: none !important;
-}
-
-.testimonial-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  justify-content: center;
-}
-
-.testimonial {
-  flex: 1 1 300px;
-  max-width: 350px;
-  background-color: #1a1a1a;
-  border-radius: 16px;
-  padding: 2rem;
-  position: relative;
-}
-
-.rating {
-  color: gold;
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-}
-
-.quote {
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 1rem;
-  color: #ddd;
-}
-
-.author {
-  font-weight: 600;
-  margin: 0;
-  text-align: right;
-  color: #aaa;
-}
-
-/* CTA Section */
-.cta-section {
-  margin: 5rem auto;
-  max-width: 800px;
-  padding: 3rem 2rem;
-  text-align: center;
-  background-color: #1a1a1a;
-  border-radius: 16px;
-}
-
-.cta-section h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  border-top: none !important;
-}
-
-.cta-section p {
-  font-size: 1.2rem;
-  color: #aaa;
-  margin-bottom: 2rem;
-}
-
-.cta-section .download-buttons {
-  margin-top: 2rem;
-}
-
 @media (max-width: 768px) {
   .logo-container {
     flex-direction: column;
@@ -471,10 +268,6 @@ head:
     margin-right: 0;
     margin-bottom: 1rem;
     height: 40px;
-  }
-  
-  .app-title {
-    font-size: 2.5rem;
   }
   
   .tagline p {
@@ -508,24 +301,8 @@ head:
     font-size: 1rem;
   }
   
-  .comparison-row {
-    flex-direction: column;
-  }
-  
-  .comparison-feature {
-    border-bottom: 1px solid #333;
-  }
-  
   .highlight-item {
     max-width: 100%;
-  }
-  
-  .testimonial {
-    max-width: 100%;
-  }
-  
-  .section-heading h2 {
-    font-size: 1.8rem;
   }
 }
 
