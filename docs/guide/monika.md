@@ -229,7 +229,7 @@ Your conversations with Monika are processed securely and used only to:
 2. Improve the quality and accuracy of the service
 3. Enhance Monika's understanding of nutrition topics
 
-Voice recordings are not permanently stored after processing. For more details, review our [Privacy Policy](hhttps://guide.nutriscan.app/privacy).
+Voice recordings are not permanently stored after processing. For more details, review our [Privacy Policy](https://nutriscan.app/privacy).
 :::
 
 ## Tips for Specific Dietary Needs

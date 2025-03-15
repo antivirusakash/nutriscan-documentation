@@ -9,7 +9,7 @@ async function generateSitemap() {
     console.log('Starting sitemap generation...');
     
     // Always use the production URL for sitemap generation
-    const baseUrl = 'https://guide.nutriscan.app';
+    const baseUrl = 'https://nutriscan.app';
     
     console.log(`Using base URL: ${baseUrl}`);
     

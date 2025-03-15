@@ -35,7 +35,7 @@ async function verifySEO() {
     
     // Check if robots.txt has the correct sitemap URL
     const robotsContent = readFileSync(robotsPath, 'utf-8');
-    if (!robotsContent.includes('https://guide.nutriscan.app/sitemap.xml')) {
+    if (!robotsContent.includes('https://nutriscan.app/sitemap.xml')) {
       issues.push('robots.txt does not have the correct sitemap URL');
       console.error('❌ robots.txt does not have the correct sitemap URL');
     } else {

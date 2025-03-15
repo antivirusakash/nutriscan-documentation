@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress';
 
 // Base URL for the site (empty for local development, your domain for production)
 const baseUrl = process.env.NODE_ENV === 'production' 
-  ? 'https://guide.nutriscan.app' 
+  ? 'https://nutriscan.app' 
   : '';
 
 // Google Search Console verification ID (replace with your actual verification ID when you have one)
@@ -28,9 +28,9 @@ headTags.push(
   `{
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "NutriScan App User Guide",
+    "name": "NutriScan App ",
     "url": "${baseUrl}/",
-    "description": "Follow our NutriScan App User Guide to learn how to scan meals, view your meal timeline, set up a diet plan, subscribe, and chat with Monika.",
+    "description": "Follow our NutriScan App to learn how to scan meals, view your meal timeline, set up a diet plan, subscribe, and chat with Monika.",
     "potentialAction": {
       "@type": "SearchAction",
       "target": "${baseUrl}/search?q={search_term_string}",
@@ -41,8 +41,8 @@ headTags.push(
 
 // Add Open Graph / Facebook tags
 headTags.push(
-  ['meta', { property: 'og:title', content: 'User Guide - NutriScan App' }],
-  ['meta', { property: 'og:description', content: 'Follow our NutriScan App User Guide to learn how to scan meals, view your meal timeline, set up a diet plan, subscribe, and chat with Monika. Get easy steps for a healthier life with NutriScan.' }],
+  ['meta', { property: 'og:title', content: 'NutriScan App' }],
+  ['meta', { property: 'og:description', content: 'Follow our NutriScan App to learn how to scan meals, view your meal timeline, set up a diet plan, subscribe, and chat with Monika. Get easy steps for a healthier life with NutriScan.' }],
   ['meta', { property: 'og:type', content: 'website' }],
   ['meta', { property: 'og:url', content: `${baseUrl}/` }],
   ['meta', { property: 'og:image', content: `${baseUrl}/images/social/og-image.jpg` }],
@@ -54,16 +54,16 @@ headTags.push(
 // Add Twitter tags
 headTags.push(
   ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-  ['meta', { name: 'twitter:title', content: 'User Guide - NutriScan App' }],
-  ['meta', { name: 'twitter:description', content: 'Follow our NutriScan App User Guide to learn how to scan meals, view your meal timeline, set up a diet plan, subscribe, and chat with Monika. Get easy steps for a healthier life with NutriScan.' }],
+  ['meta', { name: 'twitter:title', content: 'NutriScan App' }],
+  ['meta', { name: 'twitter:description', content: 'Follow our NutriScan App to learn how to scan meals, view your meal timeline, set up a diet plan, subscribe, and chat with Monika. Get easy steps for a healthier life with NutriScan.' }],
   ['meta', { name: 'twitter:image', content: `${baseUrl}/images/social/og-image.jpg` }],
   ['meta', { name: 'twitter:image:alt', content: 'NutriScan App Documentation' }]
 );
 
 export default defineConfig({
   lang: 'en-US',
-  title: 'User Guide - NutriScan App',
-  description: 'Follow our NutriScan App User Guide to learn how to scan meals, view your meal timeline, set up a diet plan, subscribe, and chat with Monika. Get easy steps for a healthier life with NutriScan.',
+  title: 'NutriScan App',
+  description: 'Follow our NutriScan App to learn how to scan meals, view your meal timeline, set up a diet plan, subscribe, and chat with Monika. Get easy steps for a healthier life with NutriScan.',
   lastUpdated: true,
   cleanUrls: true,
   ignoreDeadLinks: true,
@@ -91,7 +91,7 @@ export default defineConfig({
 
   themeConfig: {
     logo: '/images/nutriscan-logo.webp',
-    siteTitle: 'Guide - NutriScan App',
+    siteTitle: 'NutriScan App',
     
     nav: [
       { text: 'Overview', link: '/overview' },

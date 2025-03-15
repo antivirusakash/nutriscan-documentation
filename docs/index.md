@@ -1,7 +1,7 @@
 ---
 layout: doc
-title: User Guide - NutriScan App
-description: Follow our NutriScan App User Guide to learn how to scan meals, view your meal timeline, set up a diet plan, subscribe, and chat with Monika. Get easy steps for a healthier life with NutriScan. 
+title: NutriScan App
+description: Follow our NutriScan App to learn how to scan meals, view your meal timeline, set up a diet plan, subscribe, and chat with Monika. Get easy steps for a healthier life with NutriScan. 
 
 head:
   - - meta

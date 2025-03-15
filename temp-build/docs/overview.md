@@ -1,4 +1,4 @@
-# Welcome to NutriScan App User Guide! 😊
+# Welcome to NutriScan App ! 😊
 
 NutriScan App is designed to make tracking your meals and planning your diet super easy. Whether you want to lose weight, build muscle, manage diabetes, deal with PCOS, support your pregnancy, or handle viral/flu, this app is for you. Available on both Android and iOS, NutriScan lets you snap a picture of your meal and instantly get detailed nutrition info along with a diet plan that suits your needs.
 
