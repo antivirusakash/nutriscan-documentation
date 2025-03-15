@@ -336,7 +336,7 @@ NutriScan uses a bottom navigation bar with four main sections:
 |------|---------|-------------|
 | 🏠 | **Home** | Daily tracking, meal history, and insights |
 | 💬 | **NutriBites** | AI-powered meal questions and insights |
-| 🍽️ | **Diet Plan** | Personalized meal plans (Premium) |
+| 🍽️ | **Diet Plan** | Personalized diet plans (Premium) |
 | 👤 | **Profile** | Account settings and preferences |
 
 ### Profile Section Options

@@ -101,7 +101,7 @@ You can ask Monika about:
 - Advice on meeting dietary goals
 - Analysis of your meal choices
 - Guidance for specific health conditions
-- Recipe and meal planning suggestions
+- Recipe and diet planning suggestions
 - General nutrition education and concepts
 - Comparisons between different foods
 - Explanations of nutritional terms and metrics
@@ -215,7 +215,7 @@ There are no specific limits to the number of questions you can ask Monika withi
 
 Yes! We're constantly improving Monika's knowledge base and capabilities. Future updates may include:
 - Integration with more dietary patterns and specialized diets
-- Enhanced meal planning functionality
+- Enhanced diet planning functionality
 - More detailed nutritional analyses
 - Support for additional languages
 - Text-based interaction options

@@ -64,7 +64,7 @@ export default defineConfig({
   lang: 'en-US',
   title: 'User Guide - NutriScan App',
   description: 'Follow our NutriScan App User Guide to learn how to scan meals, view your meal timeline, set up a diet plan, subscribe, and chat with Monika. Get easy steps for a healthier life with NutriScan.',
-  lastUpdated: true,
+  lastUpdated: false,
   cleanUrls: true,
   ignoreDeadLinks: true,
   cacheDir: '.vitepress/cache',
@@ -125,6 +125,8 @@ export default defineConfig({
         text: 'Help & Support',
         items: [
           { text: 'Support', link: '/support' },
+          { text: 'Common Q&A', link: '/guide/common_Q&A' },
+          { text: 'App Comparison', link: '/guide/comparison' },
           { text: 'Troubleshooting', link: '/troubleshooting' },
           { text: 'FAQ', link: '/faq' },
           { text: 'Privacy & Security', link: '/privacy' }
