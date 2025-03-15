@@ -207,7 +207,7 @@ head:
 
 /* Feature Showcase Styles */
 .feature-showcase {
-  margin: 5rem auto;
+  margin: 3rem auto;
   max-width: 1200px;
   display: flex;
   flex-direction: column;
