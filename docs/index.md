@@ -250,7 +250,6 @@ head:
 .feature-showcase {
   margin: 5rem auto;
   max-width: 1200px;
-  padding: 0 1rem;
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -284,7 +283,7 @@ head:
 
 .feature-content {
   flex: 1;
-  padding: 3rem;
+  padding: 2rem;
   color: white;
   display: flex;
   flex-direction: column;
@@ -496,11 +495,13 @@ head:
   }
   
   .feature-content {
-    padding: 2rem;
+    padding: 1rem;
+    text-align:center
   }
   
   .feature-content h2 {
     font-size: 1.5rem;
+    margin-top: 0 !important
   }
   
   .feature-content p {
