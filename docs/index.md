@@ -31,39 +31,6 @@ head:
   </div>
 </div>
 
-<div class="feature-highlights">
-  <div class="highlight-item">
-    <div class="highlight-icon">📱</div>
-    <h3>Intuitive design</h3>
-    <p>Modern interface built for everyday use</p>
-  </div>
-  <div class="highlight-item">
-    <div class="highlight-icon">🔍</div>
-    <h3>Smart scanning</h3>
-    <p>Instant nutrition analysis with a single photo</p>
-  </div>
-  <div class="highlight-item">
-    <div class="highlight-icon">📊</div>
-    <h3>Personalized diet plans</h3>
-    <p>Custom nutrition recommendations for your goals</p>
-  </div>
-  <div class="highlight-item">
-    <div class="highlight-icon">💬</div>
-    <h3>Chat with Monika</h3>
-    <p>Your virtual nutritionist available 24/7</p>
-  </div>
-  <div class="highlight-item">
-    <div class="highlight-icon">📈</div>
-    <h3>Progress tracking</h3>
-    <p>Monitor your nutrition journey in real-time</p>
-  </div>
-  <div class="highlight-item">
-    <div class="highlight-icon">🔄</div>
-    <h3>NutriBites insights</h3>
-    <p>Get answers about your meal timeline</p>
-  </div>
-</div>
-
 <div class="feature-showcase">
   <div class="feature-container">
     <div class="feature-image">
@@ -114,6 +81,39 @@ head:
       <h2>NutriBites Q&A</h2>
       <p>Ask questions about your meal timeline for personalized nutrition insights. Get intelligent answers about protein intake, meal comparisons, and dietary patterns with interactive meal cards for easy reference.</p>
     </div>
+  </div>
+</div>
+
+<div class="feature-highlights">
+  <div class="highlight-item">
+    <div class="highlight-icon">📱</div>
+    <h3>Intuitive design</h3>
+    <p>Modern interface built for everyday use</p>
+  </div>
+  <div class="highlight-item">
+    <div class="highlight-icon">🔍</div>
+    <h3>Smart scanning</h3>
+    <p>Instant nutrition analysis with a single photo</p>
+  </div>
+  <div class="highlight-item">
+    <div class="highlight-icon">📊</div>
+    <h3>Personalized diet plans</h3>
+    <p>Custom nutrition recommendations for your goals</p>
+  </div>
+  <div class="highlight-item">
+    <div class="highlight-icon">💬</div>
+    <h3>Chat with Monika</h3>
+    <p>Your virtual nutritionist available 24/7</p>
+  </div>
+  <div class="highlight-item">
+    <div class="highlight-icon">📈</div>
+    <h3>Progress tracking</h3>
+    <p>Monitor your nutrition journey in real-time</p>
+  </div>
+  <div class="highlight-item">
+    <div class="highlight-icon">🔄</div>
+    <h3>NutriBites insights</h3>
+    <p>Get answers about your meal timeline</p>
   </div>
 </div>
 
