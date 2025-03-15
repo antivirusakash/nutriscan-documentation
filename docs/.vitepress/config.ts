@@ -62,7 +62,7 @@ headTags.push(
 
 export default defineConfig({
   lang: 'en-US',
-  title: 'NutriScan App',
+  title: 'Track & Diet Plan',
   description: 'Follow our NutriScan App to learn how to scan meals, view your meal timeline, set up a diet plan, subscribe, and chat with Monika. Get easy steps for a healthier life with NutriScan.',
   lastUpdated: false,
   cleanUrls: true,

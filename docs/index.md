@@ -207,11 +207,11 @@ head:
 
 /* Feature Showcase Styles */
 .feature-showcase {
-  margin: 3rem auto;
+  margin: 2rem auto;
   max-width: 1200px;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .feature-container {
