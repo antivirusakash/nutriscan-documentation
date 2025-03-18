@@ -129,7 +129,7 @@ export default defineConfig({
           { text: 'App Comparison', link: '/guide/comparison' },
           { text: 'Troubleshooting', link: '/troubleshooting' },
           { text: 'FAQ', link: '/faq' },
-          { text: 'Privacy & Security', link: '/privacy' }
+          { text: 'Privacy & Policy', link: '/privacy-policy' }
         ]
       }
     ],

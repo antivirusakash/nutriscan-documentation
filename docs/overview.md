@@ -152,7 +152,7 @@ NutriScan seamlessly integrates with:
 Your data syncs across all your devices, allowing you to track nutrition on your phone and plan diets on your tablet.
 :::
 
-## Privacy & Security
+## Privacy & Policy
 
 NutriScan prioritizes user privacy with:
 

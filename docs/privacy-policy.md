@@ -1,4 +1,4 @@
-# Privacy & Security
+# Privacy & Policy
 
 Welcome to NutriScan! We're committed to helping you make smarter food choices with just a snap 📸 and a tap 👆. Before we dive into the delicious details of our app, let's talk about how we protect your data like it's our secret recipe. 🤫
 

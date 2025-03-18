@@ -219,7 +219,7 @@ Yes. Your conversations with NutriBites are:
 - Used only to provide you with immediate responses and improve the service
 - Not used for targeted advertising
 
-For more details, please review our [Privacy Policy](https://nutriscan.app/privacy).
+For more details, please review our [Privacy Policy](https://nutriscan.app/privacy-policy).
 </details>
 
 <details>
