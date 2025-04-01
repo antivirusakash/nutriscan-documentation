@@ -18,4 +18,13 @@ This robust combination allows us to provide reliable nutritional breakdowns acr
 *   **Personalized Diet Plans (`Diet plan` - Premium Feature):** Generating a diet plan involves combining your detailed profile (preferences, goals, restrictions, etc.) with our nutritional data retrieval methods. An LLM, primarily powered by OpenAI, processes this information to create daily macro/micronutrient targets and suggest specific meals with detailed breakdowns (recipes, portion sizes, benefits).
 *   **Insights & NutriBites (`Insights`, `NutriBites`):** Features like the monthly calendar view (showing NutriScore colors), daily nutritional breakdowns, and answers provided by NutriBites rely on querying and aggregating the historical nutritional data logged or scanned by the user.
 
+## Accuracy & Limitations
+
+While we strive for the highest possible accuracy by combining advanced search and AI analysis, it's important to acknowledge that nutritional data estimation can be complex. Factors like variations in ingredients, preparation methods, and the inherent limitations of AI models mean that occasional inaccuracies may occur.
+
+*   **Meal Scanning:** Our estimated error rate for scanned meals generally falls between 5% and 20%, depending on image quality, food complexity, and lighting conditions.
+*   **Manual Logging:** For manually logged items, the estimated error rate is typically lower, ranging from 5% to 10%, influenced by the specificity of the logged item and the availability of data in our sources.
+
+We are continuously working to improve our algorithms and data validation processes to minimize these errors.
+
 By integrating these diverse and high-quality sources, NutriScan aims to deliver trustworthy, comprehensive nutritional insights for all types of food consumption, helping you make informed dietary choices and effectively track your progress towards your health goals. 
