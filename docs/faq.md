@@ -1,5 +1,54 @@
 # Frequently Asked Questions
 
+<script type="application/ld+json">
+`{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I sign in to NutriScan App?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can sign in using mobile number (India only, requires location permission), Google account, or Apple ID. The app will remember your sign-in method for future logins."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What permissions does the app require and why?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The app requires Camera (for taking food pictures), Photos (to select existing food images), Location (for city map insights), Microphone (for voice input), and Notifications (for app updates and reminders)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does meal scanning work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tap the camera icon, take a picture of your food, crop if needed, add a title (optional), wait for AI analysis (5-15 seconds), then view your complete nutritional breakdown."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is NutriScore and how is it calculated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NutriScore is our proprietary nutritional quality rating that evaluates overall nutritional balance, nutrient density, alignment with dietary goals, and health implications. The color-coded system ranges from Dark Green (Excellent) to Red (Poor)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What subscription plans are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NutriScan offers a 7-day Free Trial with access to Premium features, a Track Plan with basic tracking features, and a Premium Plan with complete access to all features including personalized diet plans."
+      }
+    }
+  ]
+}`
+</script>
+
 This guide answers common questions about the NutriScan app.
 
 ## Getting Started

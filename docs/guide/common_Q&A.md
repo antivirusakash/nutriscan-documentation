@@ -1,5 +1,94 @@
 # Common Questions & Answers
 
+<script type="application/ld+json">
+`{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How accurate are food scanning apps?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NutriScan's AI-powered food scanning technology achieves remarkable accuracy through: 95% accuracy in food identification, 90% accuracy in portion size estimation, and 93% accuracy in nutrient calculations. Our system continuously improves through machine learning from millions of food images, user feedback and corrections, regular database updates, and expert nutritionist verification."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can food scanner apps identify different cuisines?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! NutriScan excels at recognizing diverse cuisines worldwide with an extensive coverage of international dishes, recognition of local and regional ingredients, support for various cooking styles, and understanding of cultural portion sizes. Recognition accuracy varies by cuisine type: Asian Cuisines (95%+), Mediterranean (95%+), European (90%+), American (90%+), Middle Eastern (85%+)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can food scanning apps identify packaged food accurately?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NutriScan offers precise packaged food scanning with advanced image recognition for packaged foods, nutrition label analysis, accurate serving size detection, and regular database updates with new products. For best results when scanning packaged foods: ensure the nutrition label is clearly visible, take photos in good lighting, keep the package steady, and include the product name in the image."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can food scanner apps detect ingredients accurately?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NutriScan's advanced AI system provides detailed ingredient analysis with individual ingredient recognition, cooking method identification, seasoning and spice detection, and sauce and dressing analysis. Detection accuracy varies by ingredient type: Main Ingredients (95%+), Seasonings & Spices (90%+), Sauces & Dressings (85%+), Hidden Ingredients (80%+)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can food tracking apps detect allergens in food?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NutriScan helps identify potential allergens with common allergen detection, ingredient alerts, alternative suggestions, and a customizable allergen list. While NutriScan can identify common allergens, always double-check ingredient labels, consult with restaurants directly, and follow medical advice for severe allergies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I calculate calories in homemade meals?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NutriScan makes tracking homemade meals simple: 1) Snap a photo of your meal, 2) Adjust ingredients if needed, 3) Modify portion sizes, 4) Save for future use. Premium users can create custom recipes, save favorite meals, get ingredient suggestions, and track cooking methods."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the easiest way to track protein intake?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Track protein effortlessly with NutriScan: 1) Scan your meal using the app, 2) View detailed protein content analysis, 3) Track your daily protein total, 4) Compare with your personalized goals, 5) Get smart recommendations based on your progress. Features include real-time protein tracking, daily goal progress, protein-rich food suggestions, and weekly/monthly trends."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I track micronutrients easily?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NutriScan provides comprehensive micronutrient tracking for vitamins (A, B, C, D, E, K), minerals (Iron, Calcium, Zinc), and others (Fiber, Omega-3, Antioxidants). Features include detailed nutrient breakdown, daily requirement comparisons, deficiency alerts, and food recommendations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to track hydration along with meals?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NutriScan's hydration tracking features include: 1) Log your water and beverage intake, 2) Track your daily hydration total, 3) Receive smart reminders based on your schedule, 4) View detailed hydration statistics, 5) Get personalized hydration tips. Features include water intake logging, beverage nutrition tracking, smart reminders, and hydration goals based on activity level, climate, diet type, and exercise intensity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the simplest way to monitor daily nutrition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NutriScan makes nutrition monitoring effortless with quick tracking (snap photos of meals, voice input for quick logging, copy frequent meals, smart portion detection) and easy insights (visual nutrition summaries, color-coded indicators, progress at a glance, trend analysis)."
+      }
+    }
+  ]
+}`
+</script>
+
 ## Food Scanning & Accuracy
 
 ### How accurate are food scanning apps?

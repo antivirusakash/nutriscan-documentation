@@ -3,7 +3,11 @@
 - Show custom Splash Screen if updated in Firebase
 
 ## Onboarding Screen
-- Just one screen
+1. Intro - Track Your Meals Effortlessly
+2. Intro - Get Your Custom Diet Plan
+3. Intro - Achieve Your Health Goals
+4. Choose Your Goal
+5. Your Food Preference
 
 ## App Permissions
 - Notification Permission
@@ -79,11 +83,13 @@
 - Click arrow to go to Learn Nutriscore page
 - 3 Meal related questions
 - Edit Meal Title Name
-- Adjust Portion Size + / - 
+- Edit or Adjust Portion Size + / - 
 - Remove item
 - Add missing item (type or voice input)
 - Nutrition Breakdown & Ask More Button
 - Share Screenshot
+- Copy Meal to Today
+- Delete Meal
 - Back
 
 ## Nutrition Breakdown & Ask More
@@ -95,6 +101,12 @@
 - Meal Image - click meal image to go back to Nutrition Details Page
 - Type or voice input Question and ask
 - Replace question in input if user clicks on a different explore topic
+
+## Manual Logging
+@Path 1 - Home > Pencil Icon > Write About Meal
+- Back
+- Write Meal Info
+- Save & Log -> Process -> Nutrition Details Page
 
 ## NutriBites - talk with your meal timeline. Ask questions to get insights into your meal timelines.
 @Path - Home > Bottom Nav - NutriBites

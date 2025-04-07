@@ -1,3 +1,94 @@
+# NutriScan Subscription Plans
+
+<script type="application/ld+json">
+`{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What subscription plans are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NutriScan offers three subscription options: a 7-day Free Trial that gives access to all Premium features, a Track Plan for basic nutrition tracking, and a Premium Plan with complete access to all features including personalized diet plans."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know which plan is right for me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choose the Track Plan if you want unlimited meal scanning, detailed nutrition tracking, and access to our voice AI nutritionist. Choose the Premium Plan if you want all Track features plus personalized diet plans, supplement recommendations, and lifestyle guidance tailored to your health goals."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will I receive a notification before being charged?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we'll send you a reminder notification shortly before your free trial ends or before your subscription renews."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How and when will I be billed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Billing occurs automatically through your App Store or Google Play account. You'll be charged at the beginning of each billing cycle according to your chosen subscription period (monthly/annually)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is my payment information secure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, all payment processing is handled securely through Apple App Store or Google Play. NutriScan never directly stores your payment information."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What payment methods are accepted?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NutriScan accepts all payment methods supported by the App Store (for iOS users) or Google Play (for Android users), including most major credit cards and digital payment methods."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I see how much time is left on my subscription?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your current plan status, including days remaining, is displayed on the Upgrade button on the Home screen. If you have less than 7 days remaining, the exact number of days will be shown."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens to my data if I downgrade or cancel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If you downgrade from Premium to Track, you'll lose access to Premium features like diet plans, but all your meal scanning history and basic analytics will remain accessible. If you cancel completely, your basic account data will be maintained, but your access to premium features will end when your subscription period concludes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I switch between monthly and annual billing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can switch between billing periods when renewing your subscription. Annual subscriptions typically offer significant savings compared to monthly billing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know if my referral was successful?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You'll receive a notification when someone successfully signs up using your referral link. You can also track your total number of successful referrals in the 'Invite & Earn' section."
+      }
+    }
+  ]
+}`
+</script>
+
 # Subscription Plans
 
 ## Overview

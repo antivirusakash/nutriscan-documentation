@@ -349,3 +349,76 @@ Follow these tips for the most accurate meal analysis:
 If you're experiencing issues with meal scanning:
 
 Contact support through Home > Profile tab > Contact Us
+
+<script type="application/ld+json">
+`{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why didn't the app recognize my food correctly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The AI works best with clear, well-lit photos where food items are visible and distinct. Try these tips: Ensure good lighting, separate different food items slightly, take the photo from directly above the plate, make sure nothing is obscuring the food. If the AI still struggles, you can manually add or remove items from the analysis."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How accurate is the nutritional information?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NutriScan uses advanced AI to estimate nutritional content with approximately 85-90% accuracy for common foods. Factors that may affect accuracy include mixed dishes with many ingredients, home-cooked meals with custom recipes, regional or specialty foods, and unique preparation methods. You can always adjust portion sizes or add missing ingredients to improve accuracy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if I scan a non-food item?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The system will detect that the image doesn't contain food and display an error message asking you to take a picture of food. This helps maintain the quality of your nutrition data."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does NutriScan store my food photos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your food photos are processed in the cloud and then stored securely in your account for reference. They're used to generate nutritional analysis, create your meal history, and provide insights and trends. You can delete any meal (and its associated photo) at any time from your history."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does the app ask for my location?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Location data is optional and used only to enhance your experience by creating a map of your dining locations, providing regional insights about your eating habits, and helping you discover patterns in your nutrition based on location. You can use the app without granting location permission, but some insight features will be limited."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many meals can I scan per day?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This depends on your subscription plan: Free Plan: Limited to 3 scans per day, Track Plan: Unlimited scans, Premium Plan: Unlimited scans. Upgrade your plan for unlimited scanning capabilities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I scan meals from restaurants or packaged foods?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes! NutriScan can analyze both restaurant meals and takeout, packaged foods and snacks, and home-cooked meals. For packaged foods with barcodes, a future update will allow barcode scanning for even more accurate results."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I do if the app gets stuck on the processing screen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If processing takes more than 30 seconds: 1) Check your internet connection, 2) Close and reopen the app, 3) Try taking the photo again with better lighting, 4) If problems persist, try restarting your device. Our servers typically process images within 5-15 seconds depending on your connection speed."
+      }
+    }
+  ]
+}`
+</script>

@@ -97,7 +97,8 @@ export default defineConfig({
       { text: 'Overview', link: '/overview' },
       { text: 'Getting Started', link: '/getting-started' },
       { text: 'Core Features', link: '/guide/' },
-      { text: 'Help & Support', link: '/support' }
+      { text: 'Help & Support', link: '/support' },
+      { text: 'For Researchers', link: '/for-researchers' }
     ],
 
     sidebar: [
@@ -130,6 +131,13 @@ export default defineConfig({
           { text: 'Troubleshooting', link: '/troubleshooting' },
           { text: 'FAQ', link: '/faq' },
           { text: 'Privacy & Policy', link: '/privacy-policy' }
+        ]
+      },
+      {
+        text: 'Technical Resources',
+        items: [
+          { text: 'For Researchers', link: '/for-researchers' },
+          { text: 'Data Sources', link: '/data-sources' }
         ]
       }
     ],

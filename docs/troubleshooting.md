@@ -1,5 +1,94 @@
 # Troubleshooting Guide 🛠️
 
+<script type="application/ld+json">
+`{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What should I do if the app is slow or unresponsive?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Check your internet connection, restart the app, update to the latest version, clear app cache, consider reinstalling the app, check if your device has sufficient storage, and close other resource-intensive apps running in the background."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I fix app crashes or unexpected errors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Force stop the app using your device's task manager and restart it, note any error messages and report them, check if your device meets minimum system requirements (Android 12+ or iOS 13+), ensure your device's operating system is up to date, and try freeing up RAM by closing other apps."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I resolve camera permission issues?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If the scan feature isn't working or you see a black screen when taking a photo, go to Settings > Apps > NutriScan > Permissions > Camera > Allow, then restart the app after enabling the permission."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I do if I'm not receiving an OTP for mobile sign-in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Verify your number is entered correctly with proper country code, check network connection (try switching between Wi-Fi and mobile data), use 'Resend OTP' after the countdown completes, check if your SMS inbox is full, and ensure your carrier is not blocking verification SMS."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is Google or Apple Sign-In failing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For Google Sign-In: Ensure you have a working internet connection, update Google Play Services, verify the Google account is properly set up on your device, and try signing out and back in. For Apple ID: Verify you're using iOS 13 or higher, ensure your Apple ID is properly configured in Settings, update to the latest iOS version, and try signing out and back in."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I do if the free trial offer isn't appearing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "New users should see the trial offer on the home page. If it's not showing, try logging out and back in. The offer reappears every 24 hours if previously closed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I fix 'Not a food item' error during scanning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ensure your image clearly contains food, improve lighting and try again, and avoid abstract food presentations that might be hard for the AI to recognize."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I do if I encounter JSON or Network errors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Check your internet connection, try switching between Wi-Fi and mobile data, and retry the scan after a few minutes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I fix meal scanning taking too long?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Check your internet speed, be aware that large or complex meals may take longer to analyze, ensure you have a stable connection, and try taking the photo again with better lighting and clearer food visibility."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I cancel my subscription?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Go to Profile > Upgrade > Cancel Subscription, complete the cancellation survey, and finalize the cancellation in the App Store or Play Store. After cancellation, you'll retain Premium access until the end of your current billing period."
+      }
+    }
+  ]
+}`
+</script>
+
 This comprehensive guide will help you solve common issues you might encounter while using the NutriScan app. If you're experiencing a problem, please check the relevant section below.
 
 ::: tip Quick Fix for Most Issues
