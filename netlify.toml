@@ -33,10 +33,3 @@
 
 [[plugins]]
   package = "@netlify/plugin-sitemap"
-
-# Copy .well-known directory to the publish directory
-[[plugins]]
-  package = "netlify-plugin-copy-files"
-  [plugins.inputs]
-    source = "docs/public/.well-known"
-    destination = ".well-known"

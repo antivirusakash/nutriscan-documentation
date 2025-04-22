@@ -31,4 +31,10 @@ if npx vitepress build docs --no-git; then
 else
   echo "=== Build Failed ==="
   exit 1
-fi 
+fi
+
+# Create .well-known directory in the dist folder
+mkdir -p docs/.vitepress/dist/.well-known
+
+# Copy the apple-app-site-association file
+cp docs/public/.well-known/apple-app-site-association docs/.vitepress/dist/.well-known/
