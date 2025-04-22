@@ -1,10 +1,25 @@
-    {
-        "applinks": {
-          "details": [
-            {
-              "appID": "app.nutriscan",
-              "paths": ["/*"]
-            }
-          ]
-        }
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "app.nutriscan"
+        ],
+        "paths": [
+          "*"
+        ],
+        "components": [
+          {
+            "/": "/*"
+          }
+        ]
       }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "app.nutriscan"
+    ]
+  }
+}
