@@ -3,12 +3,12 @@
     "apps": [],
     "details": [
       {
-        "appID": "BSX8KAUXDZ.app.nutriscan",  // Correct key (appID), correct format (TeamID.BundleID)
-        "paths": [ "*" ]                      // Keep this simple paths array
+        "appID": "BSX8KAUXDZ.app.nutriscan",
+        "paths": [ "*" ]
       }
     ]
   },
-  "webcredentials": {                        // Optional: Also fix this if using AutoFill passwords
-    "apps": [ "BSX8KAUXDZ.app.nutriscan" ] // Requires TeamID prefix here too
+  "webcredentials": {
+    "apps": [ "BSX8KAUXDZ.app.nutriscan" ]
   }
 }
