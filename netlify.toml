@@ -23,4 +23,25 @@
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     Referrer-Policy = "strict-origin-when-cross-origin"
-    X-Content-Type-Options = "nosniff" 
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/.well-known/apple-app-site-association"
+  [headers.values]
+    Content-Type = "application/json"
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Ensure .well-known files are copied to the publish directory
+[build]
+  publish = "docs/.vitepress/dist"
+  command = "npm run docs:build"
+
+[[plugins]]
+  package = "@netlify/plugin-sitemap"
+
+# Copy .well-known directory to the publish directory
+[[plugins]]
+  package = "netlify-plugin-copy-files"
+  [plugins.inputs]
+    source = "docs/public/.well-known"
+    destination = ".well-known"
