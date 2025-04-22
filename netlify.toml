@@ -31,11 +31,6 @@
     Content-Type = "application/json"
     Cache-Control = "public, max-age=0, must-revalidate"
 
-# Ensure .well-known files are copied to the publish directory
-[build]
-  publish = "docs/.vitepress/dist"
-  command = "npm run docs:build"
-
 [[plugins]]
   package = "@netlify/plugin-sitemap"
 
