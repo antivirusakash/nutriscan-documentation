@@ -4,7 +4,7 @@
     "details": [
       {
         "appID": "BSX8KAUXDZ.app.nutriscan",
-        "paths": [ "*" ]
+        "paths": [ "/camera" ]
       }
     ]
   },
