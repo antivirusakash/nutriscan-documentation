@@ -1,13 +1,14 @@
 ## Splash Screen
 - Show general Splash Screen with logo
 - Show custom Splash Screen if updated in Firebase
+- Check subscription Status
 
 ## Onboarding Screen
 1. Intro - Track Your Meals Effortlessly
 2. Intro - Get Your Custom Diet Plan
 3. Intro - Achieve Your Health Goals
-4. Choose Your Goal
-5. Your Food Preference
+4. Choose Your Goal - save as cache
+5. Your Food Preference - save as cache
 
 ## App Permissions
 - Notification Permission
@@ -40,7 +41,7 @@
 - If payment is successful, then show the upgrade confirmation model on the home page
 
 ## Home Page
-- Showing Empty State for new user
+- Showing 4 sample meals new user
 - Showing Today's Count (Calories, Protein, Carbs, Fat)
 - If Premium Plan & Diet Plan Created - Showing Today's Count with pie chart progress and progress red color for carbs & fat if exceed the daily count goal
 - Showing meals list by date with image, name
@@ -60,6 +61,9 @@
 ## Crop Screen
 @Path - Home > Camera Icon > Click Picture
 - Crop Image
+- Select Food Type from Tags (8): 🏠 Home Made, 🍫 Packaged Food, 🧑‍🍳 Restaurent / Cafe, 🏢 Office, 🥘 Hostel, 📍 Street Food, 💊 Supplements, 🏨 Hotel / Event Buffet
+- Select Cooking Method from Tags (11): Not Sure ❓, 🥘 Mixed, 🍟 Deep-fried, 🍃 Air-fried, 🍳 Stir-fried, ♨️ Oven-baked, 🔥 Roasted, 🫧 Steamed, 🥣 Boiled, 🍢 Grilled, 🥗 Raw
+- Change the oil level from slider: No Oil, Low Oil, Default / Medium Oil, High Oil
 - Type Input Text
 - Add audio input text
 - Retake Button
@@ -74,16 +78,28 @@
 - Error if network error
 - Error if LLM content filter
 
+## Manual Logging
+@Path 1 - Home > Pencil Icon > Write About Meal
+- Back
+- Write Meal Info
+- Select Food Type from Tags (8): 🏠 Home Made, 🍫 Packaged Food, 🧑‍🍳 Restaurent / Cafe, 🏢 Office, 🥘 Hostel, 📍 Street Food, 💊 Supplements, 🏨 Hotel / Event Buffet
+- Change the oil level from slider: No Oil, Low Oil, Default / Medium Oil, High Oil
+- Save & Log -> Process -> Nutrition Details Page
+
 ## Nutrition Details Page
 @Path 1 - Home > Camera Icon > Click Picture > Crop Picture
 @Path 2 - Home > Meal Item
+- Autofill, Change & Select Food Time from Dropdown (6): 🥣 Breakfast, 🍞 Mid-Morning, 🍱 Lunch, 🍏 Afternoon, 🍛 Dinner, 🛏️ Bed Time
+- Autofill, Change & Select Food Type from Dropdown (7): 🏠 Home Made, 🍫 Packaged Food, 🧑‍🍳 Restaurent / Cafe, 🏢 Office, 🥘 Hostel, 📍 Street Food, 💊 Supplements, 🏨 Hotel / Event Buffet
+- Autofill, Change & Select Cooking Method from Dropdown (11): Not Sure ❓, 🥘 Mixed, 🍟 Deep-fried, 🍃 Air-fried, 🍳 Stir-fried, ♨️ Oven-baked, 🔥 Roasted, 🫧 Steamed, 🥣 Boiled, 🍢 Grilled, 🥗 Raw
 - Macros Nutritions (Calories, Protein, Carbs, Fat)
 - Top 4 Micro Nutrients - order by high to low (fiber, Potassium, Calcium, Omega 3 etc) 
 - NutriScore with description
 - Click arrow to go to Learn Nutriscore page
 - 3 Meal related questions
 - Edit Meal Title Name
-- Edit or Adjust Portion Size + / - 
+- Edit or Adjust Portion Size + / -
+- Tap & Type Portion Size
 - Remove item
 - Add missing item (type or voice input)
 - Nutrition Breakdown & Ask More Button
@@ -101,12 +117,6 @@
 - Meal Image - click meal image to go back to Nutrition Details Page
 - Type or voice input Question and ask
 - Replace question in input if user clicks on a different explore topic
-
-## Manual Logging
-@Path 1 - Home > Pencil Icon > Write About Meal
-- Back
-- Write Meal Info
-- Save & Log -> Process -> Nutrition Details Page
 
 ## NutriBites - talk with your meal timeline. Ask questions to get insights into your meal timelines.
 @Path - Home > Bottom Nav - NutriBites
@@ -174,6 +184,9 @@
 @Plan - Premium, Track
 - Microphone Permission
 - Ask any questions
+- Ask to log meal
+- Back to Home
+- Meal should be logged on Home
 
 ## Make Meal Timeline public and share by URL.
 @Path - Home > Bottom Nav Profile > Profile Page > Share Food Timeline
@@ -210,7 +223,8 @@
 @Path - Home > Long Press Meal Item > Delete > Confirm Delete
 
 ## Skip Scan if your meal is repeated. Just copy the old meal to today.
-@Path - Home > Long Press Meal Item > Copy to Today
+@Path 1 - Home > Long Press Meal Item > Copy to Today
+@Path 2 - Home > Nutrition Details Page > Click Copy Icon
 - Copy the meal by long pressing the Meal Item
 - Show Success Message once done
 

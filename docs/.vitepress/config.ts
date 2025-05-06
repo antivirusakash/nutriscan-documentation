@@ -15,6 +15,14 @@ const headTags: any[] = [
   ['meta', { name: 'robots', content: 'index, follow' }],
   ['meta', { name: 'author', content: 'NutriScan App' }],
   ['meta', { name: 'keywords', content: 'nutrition app, meal tracking, diet planner, AI nutritionist, food scanner, healthy lifestyle, personalized diet, calorie tracking' }],
+  // Google Analytics tag
+  ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-3MVSEZT0V8' }],
+  ['script', {}, `
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-3MVSEZT0V8');
+  `]
 ];
 
 // Add Google Search Console verification if available
