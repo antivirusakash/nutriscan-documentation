@@ -23,4 +23,13 @@
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     Referrer-Policy = "strict-origin-when-cross-origin"
-    X-Content-Type-Options = "nosniff" 
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/.well-known/apple-app-site-association"
+  [headers.values]
+    Content-Type = "application/json"
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[plugins]]
+  package = "@netlify/plugin-sitemap"

@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress';
 
 // Base URL for the site (empty for local development, your domain for production)
-const baseUrl = process.env.NODE_ENV === 'production' 
-  ? 'https://nutriscan.app' 
+const baseUrl = process.env.NODE_ENV === 'production'
+  ? 'https://nutriscan.app'
   : '';
 
 // Google Search Console verification ID (replace with your actual verification ID when you have one)
@@ -32,7 +32,7 @@ if (gscVerification) {
 
 // Add structured data
 headTags.push(
-  ['script', { type: 'application/ld+json' }, 
+  ['script', { type: 'application/ld+json' },
   `{
     "@context": "https://schema.org",
     "@type": "WebSite",
@@ -77,20 +77,20 @@ export default defineConfig({
   ignoreDeadLinks: true,
   cacheDir: '.vitepress/cache',
   outDir: '.vitepress/dist',
-  
+
   appearance: 'dark',
 
   // Add canonical URLs and other SEO enhancements
   transformPageData(pageData) {
     // Skip 404 page
     if (pageData.relativePath === '404.md') return;
-    
+
     // Generate canonical URL
     const canonicalUrl = `${baseUrl}/${pageData.relativePath.replace(/\.md$/, '.html')}`;
-    
+
     // Initialize frontmatter head if not already present
     pageData.frontmatter.head ??= [];
-    
+
     // Add canonical URL link tag
     pageData.frontmatter.head.push(['link', { rel: 'canonical', href: canonicalUrl }]);
   },
@@ -100,7 +100,7 @@ export default defineConfig({
   themeConfig: {
     logo: '/images/nutriscan-logo.webp',
     siteTitle: 'NutriScan App',
-    
+
     nav: [
       { text: 'Overview', link: '/overview' },
       { text: 'Getting Started', link: '/getting-started' },
@@ -175,6 +175,20 @@ export default defineConfig({
         '@vue/devtools-api',
         '@vueuse/core'
       ]
-    }
+    },
+    // Add custom middleware to set Content-Type for apple-app-site-association
+    plugins: [
+      {
+        name: 'configure-apple-app-site-association',
+        configureServer(server) {
+          server.middlewares.use((req, res, next) => {
+            if (req.url?.endsWith('/.well-known/apple-app-site-association')) {
+              res.setHeader('Content-Type', 'application/json');
+            }
+            next();
+          });
+        }
+      }
+    ]
   }
 });

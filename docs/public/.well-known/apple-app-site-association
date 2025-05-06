@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "BSX8KAUXDZ.app.nutriscan",
+        "paths": [ "/camera" ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [ "BSX8KAUXDZ.app.nutriscan" ]
+  }
+}
