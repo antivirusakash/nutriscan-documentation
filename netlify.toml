@@ -9,6 +9,13 @@
   # VitePress requires legacy peer deps flag
   NPM_FLAGS = "--legacy-peer-deps"
 
+# Specific redirect for /camera to home page
+[[redirects]]
+  from = "/camera"
+  to = "/"
+  status = 301
+  force = true
+
 # Redirect for SPA (Single Page Application) navigation
 # This ensures all routes are handled by the client-side router
 [[redirects]]
