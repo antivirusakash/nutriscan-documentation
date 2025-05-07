@@ -137,7 +137,7 @@ Ready to experience the difference?
 
 ## Detailed App Comparisons
 
-### NutriScan vs HealthifyMe, which is better for Indians?
+### NutriScan vs HealthifyMe, which is better?
 
 When comparing NutriScan and HealthifyMe for users in diverse regions:
 
@@ -513,20 +513,20 @@ While a nutritionist provides expert guidance, NutriScan's immediate startup, da
 
 ### MyFitnessPal or Lifesum for tracking Indian foods?
 
-When comparing Indian food tracking capabilities:
+When comparing food tracking capabilities:
 
-**Indian Food Tracking Features:**
+** Food Tracking Features:**
 
 | Feature | MyFitnessPal | Lifesum |
 |---------|--------------|---------|
-| Indian Food Database | Large user-contributed database | More limited selection |
+| Food Database | Large user-contributed database | More limited selection |
 | Regional Dish Accuracy | Variable accuracy | Limited regional specificity |
 | Homemade Dish Support | Requires manual recipe creation | Similar manual recipe entry |
 | Spice & Ingredient Detail | Basic ingredients only | Basic ingredients only |
 | User Interface | More technical | More visual approach |
 
 ::: info NutriScan Alternative
-NutriScan offers superior Indian food tracking with:
+NutriScan offers superior food tracking with:
 - AI recognition of diverse regional dishes
 - No manual recipe creation needed
 - Accurate spice and ingredient detection
@@ -803,15 +803,15 @@ While Ultrahuman provides more direct metabolic health data through CGM integrat
 
 When comparing how well these apps recognize Indian cuisine:
 
-::: tip Indian Cuisine Recognition
-Effective recognition of Indian dishes requires:
+::: tip Cuisine Recognition
+Effective recognition of dishes requires:
 - Understanding of diverse regional variations
 - Recognition of complex, multi-ingredient dishes
 - Awareness of traditional preparation methods
 - Accurate spice and ingredient detection
 :::
 
-**Indian Meal Recognition Comparison:**
+**Meal Recognition Comparison:**
 
 | Capability | NutriScan | MyFitnessPal |
 |------------|-----------|--------------|
@@ -824,7 +824,7 @@ Effective recognition of Indian dishes requires:
 **Recognition Experience:**
 
 1. **With NutriScan:**
-   - Simply take a photo of any Indian dish
+   - Simply take a photo of any dish
    - AI identifies dish with 95%+ accuracy
    - Automatic nutrient breakdown
    - Recognizes regional variations
@@ -836,14 +836,14 @@ Effective recognition of Indian dishes requires:
    - Create custom recipes for unlisted dishes
 
 ::: info Key Advantages
-NutriScan's approach to Indian cuisine provides:
+NutriScan's approach to cuisine provides:
 - Effortless recognition of complex dishes
 - Accurate nutrient analysis of traditional recipes
 - Understanding of regional cooking variations
 - No need for manual recipe creation
 :::
 
-While MyFitnessPal has a large user-contributed database, it requires significant manual effort and lacks the visual recognition capabilities that make NutriScan dramatically more effective for tracking Indian meals with minimal user effort.
+While MyFitnessPal has a large user-contributed database, it requires significant manual effort and lacks the visual recognition capabilities that make NutriScan dramatically more effective for tracking meals with minimal user effort.
 
 ### Strava vs Whoop: Better health and performance tracking?
 

@@ -136,6 +136,12 @@
 - To load map insights
 - After 2 meal scan complete
 
+## Community
+@Path - Bottom Navigation Community Click
+- View top 50 ranked people with their nutriscore.
+- Rank is defined by formula - Rank = (Total Meals × Avg NutriScore) + Consistency Bonus
+- User's rank, total meals, nutriscore
+
 ## Refer & Earn — Invite friends to the NutriScan App! Once they get the app and sign up, both will get 2 weeks of the Premium Plan.
 @Path - Home > Click Invite & Earn
 - Share link with Friends
